@@ -1,16 +1,62 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  @font-face {
+    font-family: "HPsimplified";
+    src: local("HPsimplified"), url(../public/fonts/HPSimplified-Light.woff);
+  }
+  @font-face {
+    font-family: "HPregular";
+    src: local("HPregular"), url(../public/fonts/HPSimplified-Regular.woff);
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@tailwind utilities;
+
+.radMost {
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 179px;
 }
 
-* {
-  box-sizing: border-box;
+@media all and (max-width: 1280px) {
+  .radMost {
+    width: 192px;
+  }
+}
+
+button.btn.chat::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom;
+  display: inline-block;
+  height: 27px;
+  width: 27px;
+  background-image: url(../public/images/chatbox.svg);
+  margin-right: 15px;
+  padding-bottom: 1rem;
+}
+
+ul li {
+  margin-right: 1rem;
+  margin-left: 1.2rem;
+}
+
+li {
+  list-style: none;
+  margin: 0.5rem 0.5rem;
+  padding-left: 1rem;
+}
+li::marker {
+  content: "✓";
+  display: inline-block;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
 }
