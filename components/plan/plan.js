@@ -59,7 +59,7 @@ const Plan = () => {
         <p>Choose the plan that’s right for you. Change or cancel your HP Instant Ink subscription anytime.</p>
         <p> No annual fee, contract, or commitment!</p>
         <br/>
-        <Link href="#"><a className="text-blue-500 font-semibold tracking-wide text-base">Does my printer use ink or toner?</a></Link>
+        <Link href="#"><a className="text-blue-500 font-semibold tracking-wide text-base hover:opacity-80">Does my printer use ink or toner?</a></Link>
       </div>
       <br/>
       <div className="max-w-screen-lg mx-auto">
@@ -79,7 +79,7 @@ const Plan = () => {
             <div className="m-auto">
               <button
                       type="submit"
-                      className="rounded-xl w-32 h-12 my-auto font-semibold border-2 border-blue-500"
+                      className="rounded-xl w-32 h-12 my-auto font-semibold border-2 border-blue-500 hover:opacity-80"
                       style={{
                         "backgroundColor":"white",
                       }}
@@ -102,7 +102,7 @@ const Plan = () => {
             <div className="m-auto">
               <button
                       type="submit"
-                      className="rounded-xl w-32 h-12 my-auto font-semibold border-2 border-blue-500"
+                      className="rounded-xl w-32 h-12 my-auto font-semibold border-2 border-blue-500 hover:opacity-80"
                       style={{
                         "backgroundColor":"white",
                       }}
@@ -125,7 +125,7 @@ const Plan = () => {
             <div className="m-auto">
               <button
                       type="submit"
-                      className="rounded-xl w-32 h-12 my-auto font-semibold"
+                      className="rounded-xl w-32 h-12 my-auto font-semibold hover:opacity-80"
                       style={{
                         "backgroundColor":"#048ac8",
                       }}
@@ -149,7 +149,7 @@ const Plan = () => {
             <div className="m-auto">
               <button
                       type="submit"
-                      className="rounded-xl w-32 h-12 my-auto font-semibold border-2 border-blue-500"
+                      className="rounded-xl w-32 h-12 my-auto font-semibold border-2 border-blue-500 hover:opacity-80"
                       style={{
                         "backgroundColor":"white",
                       }}
@@ -172,7 +172,7 @@ const Plan = () => {
             <div className="m-auto">
               <button
                       type="submit"
-                      className="rounded-xl w-32 h-12 my-auto font-semibold border-2 border-blue-500"
+                      className="rounded-xl w-32 h-12 my-auto font-semibold border-2 border-blue-500 hover:opacity-80"
                       style={{
                         "backgroundColor":"white",
                       }}
@@ -185,7 +185,7 @@ const Plan = () => {
       </div>
       <br/>
       <br/>
-      <div className="text-center">
+      <div className="text-center mx-2 sm:mx-auto">
         <p className="text-lg font-semibold">
           Print more in a month? <span className="font-normal"> Get an additional set of 10-15 pages for just $1.</span>
         </p>

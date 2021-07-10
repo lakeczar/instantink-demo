@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className="border-2 text-center">
-      <div className="flex my-2 justify-center font-semibold">
+      <div className="flex my-4 justify-center font-semibold">
         <Link href="" passHref><a className="text-blue-500 hover:underline">HP.com</a></Link>
         <div className="border-r-2 mx-3"></div>
         <Link href="" passHref><a className="text-blue-500 hover:underline">Privacy Statement</a></Link>
