@@ -6,6 +6,11 @@ import HeroSection from '../components/hero/hero'
 import HowWorks from '../components/works/works'
 import Save from '../components/save/save'
 import Plan from '../components/plan/plan'
+import Faq from '../components/faq/faq'
+import Green from '../components/green/green'
+import Refer from '../components/refer/refer'
+import Terms from '../components/terms/terms'
+import Footer from '../components/footer/footer'
 
 export default function Home() {
   return (
@@ -24,6 +29,11 @@ export default function Home() {
       <HowWorks/>
       <Save/>
       <Plan/>
+      <Faq/>
+      <Green />
+      <Refer />
+      <Terms/>
+      <Footer/>
     </>
   )
 }

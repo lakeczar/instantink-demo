@@ -38,25 +38,67 @@ button.btn.chat::before {
   padding-bottom: 1rem;
 }
 
-ul li {
+ul li.hero {
   margin-right: 1rem;
   margin-left: 1.2rem;
 }
 
-li {
+li.hero {
   list-style: none;
   margin: 0.5rem 0.5rem;
   padding-left: 1rem;
 }
-li::marker {
+li.hero::marker {
   content: "✓";
   display: inline-block;
 }
 
-.tab-content {
-  display: none;
-}
+/*
 
-.tab-content.active {
+FAQ Tab CSS
+
+*/
+
+.tab-content {
+  max-height: 0;
+  -webkit-transition: max-height 0.35s;
+  -o-transition: max-height 0.35s;
+  transition: max-height 0.35s;
+}
+/* :checked - resize to full height */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+/* Label formatting when open */
+.tab input:checked + label {
+  /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+  padding: 1.25rem; /*.p-5*/
+  background-color: #ffffff;
+}
+/* Icon */
+.tab label::before {
+  float: left;
+  right: 0;
+  top: 0;
   display: block;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  text-align: center;
+  -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+}
+/* Icon formatting - closed */
+.tab input[type="checkbox"] + label::before {
+  opacity: 0.5;
+  transform: scale(1, 0.7);
+  color: rgb(55, 65, 81);
+  content: "\142f";
+  font-weight: 500; /*.font-bold*/
+}
+/* Icon formatting - open */
+.tab input[type="checkbox"]:checked + label::before {
+  transform: rotateX(180deg);
 }

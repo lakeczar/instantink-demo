@@ -28,14 +28,14 @@ const HeroSection = () => {
       <br/>
       <div className="font-serif text-2xl text-gray-700 text-center lg:text-left">
         <p>Your printing service includes:</p>
-        <ul className="list-outside list-none">
-          <li>
+        <ul className="list-outside list-none hero">
+          <li className="hero">
             Original HP ink or toner
           </li>
-          <li>
+          <li className="hero">
             Hassle-free delivery and recycling
           </li>
-          <li>
+          <li className="hero">
             Flexible plan options, starting at $0.99 per month
           </li>
         </ul>
