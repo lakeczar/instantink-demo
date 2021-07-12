@@ -8,7 +8,7 @@ import step3 from '../../public/images/steps/3.svg'
 
 const HowWorks = () => {
   return (
-      <div className="text-gray-700 max-w-screen-2xl">
+      <div className="text-gray-700 mx-auto max-w-screen-2xl">
         <div className="my-5 flex gap-40 justify-center">
           <Link href="" passHref className="flex">
             <button className="btn chat"><span className="absolute font-semibold">Virtual Agent</span></button>
