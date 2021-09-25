@@ -1,7 +1,10 @@
-This project was created on an earlier version of the HP Instant-Ink Home page. The website and since been updated from creating this website. Here's a link to the old version vs my copy:
+This project was created on an earlier version of the HP Instant-Ink Home page. The website and since been updated from creating this website. Estimated creation time ~ 5 days
 
-Archive old version:
-My recreation:
+Here's a link to the old version vs my copy:
+
+Archive old version: https://web.archive.org/web/20210713232700/https://instantink.hpconnected.com/us/en/l/
+
+My recreation: https://instantink-demo.vercel.app/
 ___________________________________________________________________________________________________________________________________________________________________________________
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
